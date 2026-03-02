@@ -17,7 +17,7 @@ form.addEventListener("submit", async (e) => {
     telefono: form.telefono.value,
     tipoEquipo: form.tipoEquipo.value,
     servicios: serviciosSeleccionados,
-    envio: document.getElementById("envioCheck").checked
+    envio: false
   };
 
   const response = await fetch("https://byteclinic.onrender.com/api/presupuesto", {
