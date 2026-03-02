@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Reparación y Montaje de Ordenadores en España | ByteClinic</title>
+
+<meta name="description" content="Reparación y montaje de ordenadores en toda España. Envíanos tu equipo y te damos presupuesto sin compromiso. Servicio técnico profesional de portátiles y PC.">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="container header-flex">
+    <div class="logo">ByteClinic</div>
+    <div class="contacto">Servicio en toda España</div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Reparación y montaje de ordenadores en toda España</h1>
+    <p>Envíanos tu equipo y recibe un presupuesto profesional sin compromiso. Servicio técnico especializado en portátiles y PC.</p>
+    <a href="#formulario" class="btn-principal">Solicitar presupuesto</a>
+  </div>
+</section>
+
+<section class="beneficios">
+  <div class="container">
+    <h2>¿Cómo funciona?</h2>
+    <div class="grid-3">
+      <div>
+        <h3>1. Solicita presupuesto</h3>
+        <p>Cuéntanos el problema o el equipo que quieres montar.</p>
+      </div>
+      <div>
+        <h3>2. Envíanos tu equipo</h3>
+        <p>Nos envías el ordenador desde cualquier punto de España.</p>
+      </div>
+      <div>
+        <h3>3. Reparamos o montamos</h3>
+        <p>Te lo devolvemos listo para usar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="servicios">
+  <div class="container">
+    <h2>Servicios técnicos disponibles</h2>
+    <ul>
+      <li>Formateo e instalación de Windows</li>
+      <li>Cambio de disco HDD a SSD</li>
+      <li>Limpieza interna y mantenimiento</li>
+      <li>Ampliación de memoria RAM</li>
+      <li>Reparación de pantalla de portátil</li>
+      <li><strong>Montaje de ordenador desde cero</strong> (equipos gaming, oficina o personalizados)</li>
+    </ul>
+  </div>
+</section>
+
+<section id="formulario" class="formulario">
+  <div class="container">
+    <h2>Solicita tu presupuesto online</h2>
+
+    <form id="presupuestoForm">
+      <input type="text" name="nombre" placeholder="Nombre completo" required>
+      <input type="email" name="email" placeholder="Correo electrónico" required>
+      <input type="text" name="telefono" placeholder="Teléfono" required>
+
+      <select name="tipoEquipo">
+        <option value="Portatil">Portátil</option>
+        <option value="Sobremesa">PC Sobremesa</option>
+        <option value="MontajeNuevo">Montaje desde cero</option>
+      </select>
+
+      <label><input type="checkbox" value="formateo"> Formateo + Windows</label>
+      <label><input type="checkbox" value="ssd"> Cambio a SSD</label>
+      <label><input type="checkbox" value="limpieza"> Limpieza interna</label>
+      <label><input type="checkbox" value="ram"> Ampliación RAM</label>
+      <label><input type="checkbox" value="pantalla"> Cambio pantalla</label>
+      <label><input type="checkbox" value="montaje"> Montaje de ordenador desde cero</label>
+
+      <button type="submit" class="btn-principal">Recibir presupuesto</button>
+    </form>
+
+    <div id="resultado"></div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 ByteClinic - Reparación y montaje de ordenadores en España</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
