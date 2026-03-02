@@ -20,7 +20,7 @@ form.addEventListener("submit", async (e) => {
     envio: false
   };
 
-  const response = await fetch("https://byteclinic.onrender.com/api/presupuesto", {
+  const response = await fetch("/api/presupuesto", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
